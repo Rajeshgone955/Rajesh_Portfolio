@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel = "stylesheet" href = "style.css">
+  <script src="https://kit.fontawesome.com/21fb8d14a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id ="header">
+      <div class="container">
+          <nav>
+            <image src = "./images/logoblack.jpg" class = "logo"></image>
+            <ul>
+              <li> <a href = "#">Home</a></li>
+              <li> <a href = "#">About</a></li>
+              <li> <a href = "#">Services</a></li>
+              <li> <a href = "#">Portfolio</a></li>
+              <li> <a href = "#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class ="header-text">
+              <p> Software Engineer</p>
+              <h1> Hi, I'm <span1>Rajesh</span1> <br> From <span2>India</span2></h1>
+          </div>
+      </div>
+  </div>
+   <!-- ---------------About Me-------------- -->
+
+  <div id = "about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+             <img src = "./images/secondimage.jpg"></img>
+        </div>
+        <div class="about-col-2">
+            <h1 class ="sub-title"> About Me</h1>
+            <p class="about-text">
+                Iam an Alumini of CVR Specialized in Mechanical Engineering
+            </p>
+            <div class = "tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('expereince')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class ="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>SDE</span><br>Software Engineer</li>
+                <li><span>Web Development</span><br>Web App Developer</li>
+                <li><span>App Development</span><br>Application developer</li>
+              </ul>
+            </div>
+            <div class ="tab-contents" id="expereince">
+              <ul>
+                <li><span>10:2021-12:2021</span><br>Internship at Kalyani Rafeals Advanced Systems</li>
+              </ul>
+            </div>
+            <div class ="tab-contents" id="education">
+              <ul>
+                <li><span>2019-2023</span><br>Studied at CVR College Of Engineering</li>
+                <li><span>2017-2019</span><br>Studied at MJPTBCWR Junior College</li>
+                <li><span>2016-2017</span><br>Studied at Surya's Radiant High School</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------services-------------- --> 
+  <div id="services">
+    <div class="container">
+        <h1 class ="sub-title"> My Services</h1>
+        <div class="services-list">
+          <div>
+              <i class="fa-solid fa-code"></i>
+              <h2> Software Developer</h2>
+              <p>Solves the Complex problem and can develop Effective interfaces</p>
+              <a href="#">Learn More</a>
+          </div>
+          <div>
+             <i class="fa-brands fa-app-store-ios"></i>
+             <h2> Web Designer</h2>
+              <p>Solves the Complex problem and can develop Effective interfaces</p>
+              <a href="#">Learn More</a>
+          </div>
+          <div>
+              <i class ="fa-light fa-database"></i>
+              <h2> Data Analyst </h2>
+              <p>Solves the Complex problem and can develop Effective interfaces</p>
+              <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- -----------------------Portfolio---------------------- -->
+  <div id ="Portfolio">
+    <div class ="container">
+        <h1 class ="sub-title"> My Work </h1>
+        <div class="work-list">
+        <div class= "work">
+          <img src ="./images/AirPurifier.jpg">
+          <div class ="layer">
+            <h3>Homemade Air purifier</h3>
+            <p>Air purifier or air cleaner is a device which removes contaminants from the air in a room to
+              improve indoor air quality.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class= "work">
+          <img src ="./images/oldhams.gif">
+          <div class ="layer">
+            <h3>Oldham's Coupling</h3>
+            <p>Oldham's coupling is used for connecting two parallel shafts whose axes are at a small distance span.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class= "work">
+          <img src ="./images/fibers.jpg">
+          <div class ="layer">
+            <h3>Experimental on Hybrid composites</h3>
+            <p>Composites are now being used in vehicle and equipment applications, including, panels, frames, interior components and other parts</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+     <a href ="#" class="btn">See More</a>
+    </div>
+  </div>
+  <!-- -----------------------Contact ------------------- -->
+  <div id ="Contact">
+    <div class ="container">
+      <div class="row">
+        <div class="contact-left">
+              <h1 class ="sub-title"> Contact Me </h1>
+              <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+              <p><i class="fa-solid fa-phone"></i>0123456789</p>
+              <div class ="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="C:\Users\rajes\OneDrive\Documents\Resumes\Resume word pdf.pdf" Download class = "btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type ="text" name="Name" placeholder="Your Name" required></input>
+            <input type ="email" name="email" placeholder="Your Email" required></input>
+            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form> 
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+      
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+
+  </script>
+  
+</body>
+</html>
